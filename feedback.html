@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Two Can Play</title>	<!-- title for the web-page -->
+<meta charset="utf-8">
+(<script type="text/javascript">
+function validateForm() {
+    var x = document.forms["myForm"]["name"].value;
+    if (x == null || x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+	  else // validate option buttons
+var y = document.forms["myForm"]["address"].value;
+if(y == null || y == "") {
+        alert("Address must be filled out");
+        return false;
+    }
+	  else // validate option buttons
+var z = document.forms["myForm"]["email"].value;
+if(z == null || z == "") {
+        alert("Email must be filled out");
+        return false;
+    }
+	  else // validate option buttons
+var a = document.forms["myForm"]["number"].value;
+if(a == null || a == "") {
+        alert("Phone Number must be filled out");
+        return false;
+    }
+	  else // validate option buttons
+var b = document.forms["myForm"]["gender"].value;
+if(b == null || b == "") {
+        alert("Your Gender must be filled out");
+        return false;
+    }
+	  else // validate option buttons
+var c = document.forms["myForm"]["age"].value;
+if(c == null || c == "") {
+        alert("Your age must be filled out");
+        return false;
+    }
+	  else // validate option buttons
+var d = document.forms["myForm"]["comment"].value;
+if(d == null || d == "") {
+        alert("");
+        return false;
+    }
+	  else // validate option buttons
+return valid;
+}
+</script>
+
+
+
+<link href="TwoCanPlay.css" rel="stylesheet"> 	<!-- This is the link to the Style Sheet-->
+<link rel="icon" href="logo.jpg" sizes="16x16" type="image/jpg">	<!-- This is the the favicon for the page-->
+</head>
+
+
+<body>
+<div id="wrapper"> <!-- beginning tag for wrapper div-->
+<header>
+<img src="logo.jpg" alt="Logo" width="220" height="150"> <!-- This is the logo for the page-->
+</header>					<!-- End of Header-->
+
+<nav>				<!-- This is the navigation bar, that clicks on the links between pages-->
+		<ul>			<!-- unordered list-->
+<strong><li><a href="index.html">Home Page</a></li>		<!-- This is a list of all the pages togther-->
+		<li><a href="xboxone.html">XBox One</a></li>
+		<li><a href="psfour.html">PS Four</a></li>
+		<li><a href="pc.html">PC</a></li>
+		<li><a href="contactinformation.html">Contact Information</a></li>
+	    <li><a href="feedback.html">Feedback </a></li>
+		<li><a href="registration.html">Registration Page </a></li>
+		<li><a href="map.html">Site Map </a></li>
+		</strong>
+		</ul>			<!-- End of un-ordered list -->
+</nav>				<!-- The end of the navigation-->
+
+<a id="top"></a>
+<div id="content2">
+<h1>Customer Feedback Page</h1>
+<form name="myForm" action="feed.php"
+onsubmit="return validateForm()" method="post">
+Please Enter Your Fulln Name: <input type="text" name="name">
+<br><br>
+Please Enter Your Address: <input type="text" name="address">
+<br><br>
+Please Enter Your Email Address: <input type="text" name="email">
+<br><br>
+Please Enter Your Contact Number: <input type="text" name="number">
+<br><br>
+
+ Please select a Gender: 
+<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="male">Male
+<br><br><br>
+Please enter Your Age Group: 
+<select name="age">
+<option value="">Please Select an Option: </option>
+<option value="0-18 years">0-18 years</option>
+<option value="18-30 years">18-30 years</option>
+<option value="30-45 years">30-45 years</option>
+<option value="45-60 years">45-60 years</option>
+<option value="60+ years">60+ years</option>
+</select>
+<br><br>
+Did you enjoy the website: 
+<input type="radio" name="anwser" value="yes">Yes
+<input type="radio" name="anwser" value="no">No
+<br><br><br>
+Customer special requirements or comments: 
+<br>
+<textarea name="comment" rows="5" cols="40"></textarea>
+<br><br><br>
+ 
+ 
+
+
+<p><input type="submit" name="send" value="Send Details"></p>
+
+
+</form>
+
+	
+<a href="#top">Back to top</a>
+</div>
+<footer>		<!-- The footer of the page-->
+<small>Copyright &copy; 2015 Two Can Play<br> <!-- Small makes the writing small-->
+<a href="mailto:yourfirstname@yourlastname.com">michael@kelly.com</a></small>	<!-- a link to an email address and end of the writing being small -->
+</footer>		<!-- End of the footer-->
+</div>			<!-- End of the wrapper div-->
+</body>
+</html>

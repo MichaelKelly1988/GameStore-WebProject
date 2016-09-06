@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Two Can Play</title>	<!-- title for the web-page -->
+<meta charset="utf-8">		
+<link href="TwoCanPlay.css" rel="stylesheet"> 	<!-- This is the link to the Style Sheet-->
+<link rel="icon" href="logo.jpg" sizes="16x16" type="image/jpg">	<!-- This is the the favicon for the page-->
+<script type="text/javascript">
+function validateForm() {
+    var x = document.forms["myForm"]["name"].value;
+    if (x == null || x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+	  else // validate option buttons
+var z = document.forms["myForm"]["email"].value;
+if(z == null || z == "") {
+        alert("Email must be filled out");
+        return false;
+    }
+	  else // validate option buttons
+var a = document.forms["myForm"]["username"].value;
+if(a == null || a == "") {
+        alert("User Name must be filled out");
+        return false;
+    }
+	  else // validate option buttons
+var invalid = " "; // Invalid character is a space
+var minLength = 6; // Minimum length
+var pw1 = document.myForm.password.value;
+var pw2 = document.myForm.cpassword.value;
+// check for a value in both fields.
+if (pw1 == "" || pw2 == "") {
+alert('Please enter your password twice.');
+return false;
+}
+else
+// check for minimum length
+if (document.myForm.password.value.length < minLength) {
+alert('Your password must be at least ' + minLength + ' characters long. Try again.');
+return false;
+}
+else
+// check for spaces
+if (document.myForm.password.value.indexOf(invalid) > -1) {
+alert("Sorry, spaces are not allowed.");
+return false;
+}
+else 
+if (pw1 != pw2) {
+alert ("You did not enter the same new password twice. Please re-enter your password.");
+return false;
+}
+else 
+return valid;
+      }
+   
+	
+
+	  
+</script>
+</head>
+
+
+<body>
+
+
+
+<div id="wrapper"> <!-- beginning tag for wrapper div-->
+
+<header>
+<img src="logo.jpg" alt="Logo" width="220" height="150"> <!-- This is the logo for the page-->
+</header>					<!-- End of Header-->
+
+<nav>				<!-- This is the navigation bar, that clicks on the links between pages-->
+		<ul>			<!-- unordered list-->
+	    <li><a href="index.html">Home Page</a></li>		<!-- This is a list of all the pages togther-->
+		<li><a href="xboxone.html">XBox One</a></li>
+		<li><a href="psfour.html">PS Four</a></li>
+		<li><a href="pc.html">PC</a></li>
+		<li><a href="contactinformation.html">Contact Information</a></li>
+	    <li><a href="feedback.html">Feedback </a></li>
+		<li><a href="registration.html">Registration Page </a></li>
+		<li><a href="map.html">Site Map </a></li>
+		
+		</ul>			<!-- End of un-ordered list -->
+</nav>				<!-- The end of the navigation-->
+	
+<a id="top"></a>
+<div id="content2">  <!-- beginning tag for content div-->
+<h1>Regestration Page </h1> 	<!-- Heading 3-->
+
+<form name="myForm" action="reg.php"
+onsubmit="return validateForm()" method="post">
+<strong>Please Enter Your Full Name:</strong>
+<input name="name" type="text">
+ <br><br><br>
+ <strong>Please Enter a Valid Email Address: </strong>
+ <br>
+ <input name="email" type="text">
+ <br><br><br>
+ <strong>Please Enter Your User Name: </strong>
+ <br>
+ <input name="username" type="text">
+ <br><br><br>
+Enter your password twice.
+<br>
+(At least 6 characters, 12 and spaces are not allowed.)
+<p>
+Password: <input type="password" name="password">
+<br><br>
+Confirm password: <input type="password" name="cpassword">
+<p>
+
+<p><input type="submit" name="send" value="Send Details"></p>
+</form>
+<br>
+<br>
+<br>
+<a href="#top">Back to top</a>
+</div>			<!-- End of div for the content -->
+<footer>		<!-- The footer of the page-->
+<small>Copyright &copy; 2015 Two Can Play<br> <!-- Small makes the writing small-->
+<a href="mailto:yourfirstname@yourlastname.com">michael@kelly.com</a></small>	<!-- a link to an email address and end of the writing being small -->
+</footer>		<!-- End of the footer-->
+</div>			<!-- End of the wrapper div-->
+
+</body>
+</html>

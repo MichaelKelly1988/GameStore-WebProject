@@ -1,0 +1,161 @@
+/* This is the css style for the body of the page */
+body { background-color: #FFFFff;			
+      color: #000000;
+	 background-image:url("head2.jpg");
+	  font-family: serif, sans-serif;
+}
+
+/* This is the header which i used for the bean image */
+header{
+	
+	background-image:url("NSky.jpg");
+}
+/* This is all the code for the data and the yellow background that goes with it */
+nav { background-color:#cc3333; 
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+padding-left: 10px;
+font-weight: bold;
+}
+
+/* This is code for the un-ordered list that spreads across all the pages */
+nav ul{ list-style-type:none;}
+/*This is what seperates the links in the navigation bar */
+nav a{text-decoration:none;
+	padding-right:30px;}
+/*This is the details for the list */	
+nav li{display:inline;}
+
+/* This is linked to the wrapper, notice the hash tag this is to link it to the code name in the html code */
+#wrapper { width: 80%;
+           margin-left: auto;
+		   margin-right: auto;
+		 
+		   text-align:center;
+		   min-width:960px;
+		   background-color:#ffff99;
+		   background-image:url("NSky.jpg");
+		   
+		   
+}
+/* This is the code for the main content of the page, notice the hash tag again. taking in the div with that name */
+#content {background-color:#ffffe0;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 100px;
+	padding-left: 30px;
+	font-weight: bold;
+	margin-left:170px;
+	
+}
+
+h1{ font-family: Cooper Black;
+text-shadow: 1px 1px 1px #cccccc;
+color:#000000;}
+
+#double{ -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	-webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;*/
+		
+}
+/*This is heading 3 that will be used throughout the web code*/
+h3{ font-family: serif;
+text-shadow: 1px 1px 1px #cccccc;
+color:#000000;}
+
+
+/*This is the paragraph code that will be used throughout the webpage*/
+p { font-family: serif;
+color: #000000; }
+/*This is the code used for article in the html code */
+article{ text-align:left;}
+/* This is code for the div called h1o in the html code*/	
+#h1o{text-align:left;
+font-family:serif;
+color:#000000;
+font-size:40px;}
+	
+
+/* This is the code for footer that will be used throughout the webpage*/
+footer{
+	padding-bottom: 20px;
+	padding-left:	20px;
+	padding-right:	20px;
+	padding-top:	20px;
+	font-size:		100%;
+	font-style: 	italic;
+	font-family:	serif;
+	color:			yellow;
+}
+/*This is code for the div that is called content1*/
+#content2 {background-color:#ffffe0;
+	
+	font-weight:bold;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 90px;
+	padding-left: 30px;
+	font-weight: bold;
+	margin-left:170px;
+    text-align:left;
+}
+/*This is code for the div that is called h11 */
+#h11{ font-family: serif;
+text-shadow: 1px 1px 1px #cccccc;
+color:#000000;
+}
+/* This is code for the table in html code in the webpage, the adjustments */
+table{
+	width:60%;
+	color:#000000
+}
+/*This is the caption code used in the table*/
+
+/*This is the code for figure within in the html documnet*/
+figure{
+	text-align:center;
+	color:#000000;
+	font-family:serif;
+}
+
+/*Code for the table Data*/
+td{
+	padding:15px;
+}
+/*Code for the div called content2 within the html document*/
+#content2 {background-color:#ffffe0;
+	
+	font-weight:bold;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 90px;
+	padding-left: 30px;
+	font-weight: bold;
+	margin-left:170px;	
+}
+/* This is adjustments for form within the html code */
+form{font-family:serif;
+color:#000000;
+text-align:left;}
+/*code for legend with in the html code */
+legend{text-align:center;}
+
+
+
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	-webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;*/
+		
+
+
+
+
+
+

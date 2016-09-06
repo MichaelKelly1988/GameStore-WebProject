@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Two Can Play</title>	<!-- title for the web-page -->
+<meta charset="utf-8">		
+<link href="TwoCanPlay.css" rel="stylesheet"> 	<!-- This is the link to the Style Sheet-->
+<link rel="icon" href="logo.jpg" sizes="16x16" type="image/jpg">	<!-- This is the the favicon for the page-->
+</head>
+
+
+<body>
+<div id="wrapper"> <!-- beginning tag for wrapper div-->
+<header>
+<img src="logo.jpg" alt="Logo" width="220" height="150"> <!-- This is the logo for the page-->
+</header>					<!-- End of Header-->
+
+<nav>				<!-- This is the navigation bar, that clicks on the links between pages-->
+		<ul>			<!-- unordered list-->
+<strong><li><a href="index.html">Home Page</a></li>		<!-- This is a list of all the pages togther-->
+		<li><a href="xboxone.html">XBox One</a></li>
+		<li><a href="psfour.html">PS Four</a></li>
+		<li><a href="pc.html">PC</a></li>
+		<li><a href="contactinformation.html">Contact Information</a></li>
+	    <li><a href="feedback.html">Feedback </a></li>
+		<li><a href="registration.html">Registration Page </a></li>
+		<li><a href="map.html">Site Map </a></li>
+		</strong>
+		</ul>			<!-- End of un-ordered list -->
+</nav>				<!-- The end of the navigation-->
+	
+
+<div id="content">  <!-- beginning tag for content div-->
+<h3>Welcome to Bean Me Up</h3> 	<!-- Heading 3-->
+<p>				<!-- Paragraph tag -->
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>			<!-- End of Paragraph tag-->
+
+
+<h3>Special Offer of the Week</h3>
+<P>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<p>
+<br><br>
+<H3>Bean of the Week</H3>
+<p>
+<img src="cf5.jpg" alt="Bean of the Week" width="150" height="150">		<!-- Inserted an image-->
+<br>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<img src="Bean.jpg" alt="Logo" width="40" height="40">			
+</p>
+
+
+
+</div>			<!-- End of div for the content -->
+<footer>		<!-- The footer of the page-->
+<small>Copyright &copy; 2015 Bean Me Up<br> <!-- Small makes the writing small-->
+<a href="mailto:yourfirstname@yourlastname.com">michael@kelly.com</a></small>	<!-- a link to an email address and end of the writing being small -->
+</footer>		<!-- End of the footer-->
+</div>			<!-- End of the wrapper div-->
+</body>
+</html>
